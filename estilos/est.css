@@ -1,0 +1,1500 @@
+.fundo{
+	background-color: #000033;
+}
+
+
+#navbarSite a{
+	color:white;
+	font-size: 15px;
+	font-family: Courier;
+	font-weight: bold;
+}
+
+#navbarSite a:hover{
+	color: #00004d;
+	background-color: #e6e6ff;
+	border-radius: 10px;
+}
+
+
+
+.altura{
+	height:500px;
+}
+.cor {
+	font-size:18px;
+	color:#ccccff;
+	font-weight: bold;
+}
+
+.container .collapse .navbar-nav .nav-item a:hover{
+	background-color: yellow;
+}
+
+/*Pagina*/
+* { 
+	margin: 0; 
+	padding: 0; 
+}
+
+.leg b{
+	text-align:center;
+	margin-right:100px;
+	font-family:Times New Roman;
+}
+
+.leg{
+	background: #e6e6ff;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	margin-right:100px;
+	margin-left:-30px;
+	font-family:Times New Roman;
+	padding:10px 10px 10px 10px;
+	border-width: medium;
+	border-style: solid;
+	border-color: #01233f;
+}
+
+a:link {
+	color: black;
+	text-decoration:none;
+}
+
+/* link que foi visitado */
+ a:visited {
+	color: black;
+	text-decoration:none;
+}
+
+/* mouse over */
+ a:hover {
+	color: black;
+	text-decoration:none;
+}
+
+/* link selecionado */
+ a:active {
+    color: black;
+	text-decoration:none;
+}
+
+/* Reset CSS */
+*, *:after, *:before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+/* Fundo do menu */
+.menu{
+	background: #000033;
+	margin-bottom: 10px;
+}
+/* Remove as bolinhas do lado das listas */
+.menu .menu-list, .menu .sub-menu{
+	list-style: none;
+}
+/* Configura todos os links do nosso menu */
+.menu a{
+	color: #ccccff;
+	text-decoration: none;
+	display: block;
+	cursor: pointer;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing:0.2em;
+}
+
+/* Faz os <li>s ficarem na horizontal */
+.menu > .menu-list > li{
+	float: left;
+	position: relative;
+}
+
+/* Configura os links do menu principal */
+.menu > .menu-list > li > a {
+	padding: 20px;
+	margin: 0 5px;
+	background: #000033;
+}
+
+/* Configura o fundo do menu principal quando com mouse hover */
+.menu > .menu-list > li:hover a {
+	background: #444;
+}
+
+/* Mostra o submenu no evento de mouse hover */
+.menu > .menu-list > li:hover > .sub-menu {
+	display: block;
+}
+
+/* Configura o estilo do submenu */
+.menu > .menu-list > li > .sub-menu {
+	position: absolute;
+	top: 50px;
+	left: 5px;
+	background: blue;
+	min-width: 200px;
+	z-index: 1000;
+	display: none;
+}
+
+/* Configura os links do submenu */
+.menu > .menu-list > li > .sub-menu > li > a {
+	padding: 10px 20px;	
+}
+
+/* Clearfix para o menu */
+.menu:after {
+	content: '.';
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+.imgLogo{
+	max-height:70px; 
+	max-width:140px; 
+	margin-left:-150px;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: sans-serif;
+}
+
+a:link,
+a:visited{
+	text-decoration: none;
+}
+
+  
+.mod{
+   background-color: rgba(0,0,0, .8);
+   width:100%;
+   height: 100vh;
+   position: absolute;
+   z-index: 10;
+   opacity: 0;
+   visibility: hidden;
+   transition: all .5s;
+}
+
+.modal__content{
+   width: 75%;
+   height: 65%;
+   background-color: #fff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 2em;
+   border-radius: 1em;
+   opacity: 0;
+   visibility: hidden;
+   transition: all .5s;
+}
+
+.new__modal{
+	width: 50%;
+	height: 70%;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 2em;
+   border-radius: 1em;
+   opacity: 0;
+   visibility: hidden;
+   transition: all .5s;
+}
+  
+#mEsp1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mEsp1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+  
+#mEsp2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mEsp2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+  
+#mEsp3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mEsp3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+  
+#mEsp4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mEsp4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mVas1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mVas1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+  
+#mVas2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mVas2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+  
+#mVas3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mVas3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+  
+#mVas4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mVas4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+  
+#mRod1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mRod1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+  
+#mRod2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mRod2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+  
+#mRod3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mRod3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+  
+#mRod4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mRod4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAg1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAg1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAg2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAg2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAg3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAg3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAg4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAg4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mEnv1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mEnv1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mEnv2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mEnv2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mEnv3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mEnv3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mEnv4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mEnv4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPas1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPas1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPas2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPas2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPas3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPas3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPas4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPas4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPra1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPra1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPra2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPra2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPra3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPra3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPra4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPra4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCop1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCop1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCop2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCop2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCop3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCop3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCop4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCop4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSac1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSac1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSac2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSac2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSac3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSac3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSac4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSac4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mHP1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mHP1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mHP2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mHP2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mHP3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mHP3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mHP4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mHP4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAlc1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAlc1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAlc2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAlc2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAlc3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAlc3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAlc4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAlc4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSab1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSab1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSab2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSab2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSab3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSab3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSab4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mSab4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMas1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMas1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMas2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMas2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMas3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMas3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMas4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMas4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLuv1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLuv1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLuv2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLuv2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLuv3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLuv3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLuv4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLuv4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mOc1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mOc1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mOc2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mOc2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mOc3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mOc3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mOc4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mOc4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCaf1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCaf1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCaf2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCaf2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCaf3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCaf3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCaf4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCaf4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAc1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAc1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAc2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAc2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAc3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAc3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAc4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAc4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLei1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLei1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLei2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLei2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLei3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLei3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLei4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLei4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAP1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAP1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAP2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAP2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAP3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAP3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAP4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mAP4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mBP1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mBP1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mBP2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mBP2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mBP3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mBP3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mBP4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mBP4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMoc1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMoc1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMoc2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMoc2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMoc3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMoc3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMoc4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mMoc4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPer1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPer1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPer2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPer2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPer3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPer3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPer4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mPer4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCar1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCar1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCar2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCar2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCar3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCar3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCar4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCar4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+} 
+
+#mTel1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mTel1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mTel2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mTel2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mTel3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mTel3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mTel4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mTel4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLam1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLam1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLam2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLam2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLam3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLam3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLam4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mLam4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCad1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCad1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCad2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCad2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCad3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCad3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCad4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCad4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCha1:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCha1:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCha2:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCha2:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCha3:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCha3:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCha4:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCha4:target .modal__content{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCont:target{
+	opacity: 1;
+	visibility: visible;
+}
+
+#mCont:target .new__modal{
+	opacity: 1;
+	visibility: visible;
+}
+
+.modal__close{
+   color: #363636;
+   font-size: 2em;
+   position: absolute;
+   top: .5em;
+   right: 1em;
+}
+
+.modal__heading{
+   color: black;
+   margin-bottom: 1em;
+}
+
+.modal__paragraph{
+   line-height: 1.5em;
+ }
+
+.modal-open{
+	display: inline-block;
+	color: dodgerblue;
+	margin: 2em;
+}
+
+.modal__content .ct .mImg {
+	width: 40%;
+	height: 80%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	float:left;
+}
+
+.modal__content .ct .mImg .imgM {
+	min-width:400px;
+	width: 40%;
+	height: 80%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	float:left;
+	
+}
+
+.modal__content .ct .mTexto{
+	float:right;
+	size:30%;
+	align:right;
+	width: 40%;
+	height: 40%;
+}
+
+.itens{
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+	vertical-align: center;
+	margin: 0;
+	margin-top:0%;
+	
+}
+
+.itens tr td{
+	float:center;
+	background-color:#ffffff;
+	padding: 20px 20px 20px 20px;
+	text-align: center;
+	margin:2px 2px 2px 2px;
+	display: inline-block;
+	vertical-align: center;
+	min-width: 280px;
+	width: 40%;
+	max-width: 350px;
+	min-height: 280px;
+	height: 40%;
+	max-height: 350px;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.itens tr td .img_itens{
+	float:center;
+	display: inline-block;
+	vertical-align: center;
+	width: 40%;
+	height: 40%;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.imgT {
+	margin-top: -5%;
+	margin-bottom: -2%;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[id=email]{
+  width: 69%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[id=telefone]{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.ct{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+input[id=busca] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width;
+	transition: left to right; 
+	transition:  5;
+  transition:  ease-in-out;
+}
+
+input[id=busca]:focus {
+  width: 100%;
+}
+
